@@ -1,0 +1,53 @@
+
+
+body {
+    background-color: rgb(238, 238, 187);
+    background-image: url(./7d78f0cc7720b32c1737e0aa8f0318d2.jpg);
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: 100%; /* Ensures the entire image is visible */
+    background-position: center; /* Centers the image in the viewport */
+   
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: wheat;
+    text-shadow: 11px 5px 15px black;
+}
+div.box{
+    position: relative;
+    height: 450px;
+    width: 500px;
+   
+    top: 40px;
+    left: 450px ;
+    right: 40px;
+    bottom:  40px;
+    box-shadow: 9px 9px 18px rgb(14, 12, 12);
+   background-color: rgb(174, 174, 93)
+  
+
+}
+.one{
+    position: absolute;
+    height: 400px;
+    width: 430px;
+    box-shadow: 9px 9px 18px rgb(14, 12, 12);
+    top: 20px;
+    left: 30px;
+    
+    background-color:black;
+ }
+ .text{
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:30px ;
+    padding-top: 20px;
+ }
+ .footer{
+    font-size: 20px;
+    color:black;
+    font-weight: bolder;
+
+ }
